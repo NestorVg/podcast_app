@@ -2,7 +2,7 @@
 
 
 ### `npm install`
-Para compilar el proyecyo primero se debe instalar los paquetes necesarios con npm install.
+Para compilar el proyecto primero se debe instalar los paquetes necesarios con npm install.
 
 ## Available Scripts
 
