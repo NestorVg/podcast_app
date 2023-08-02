@@ -1,0 +1,40 @@
+.table {
+    width: 100%;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead tr {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.table thead tr th {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 5px;
+    font-weight: 600;
+    border-style: none;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #e9e9e9;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr td {
+    border-bottom: solid #dadada 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #515151;
+    line-height: 15px;
+    padding: 14px 5px;
+}
+
+.titulo_episodio:hover {
+    cursor: pointer !important;
+}

@@ -1,0 +1,7 @@
+.container_audio {
+    margin-top: 20px;
+}
+
+.container_audio audio {
+    width: 100%;
+}

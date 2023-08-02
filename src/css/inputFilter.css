@@ -1,0 +1,15 @@
+.container_filter {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end
+}
+
+.filter {
+    border-radius: 3px;
+    padding: 15px;
+    min-width: 300px;
+    border: 2px solid #dcdcdc;
+    font-size: 1rem;
+}

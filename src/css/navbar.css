@@ -1,0 +1,31 @@
+.navbar {
+    padding: 0px 60px;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.navbar div h1 {
+    color: var(--azul-claro);
+    margin: 4px 0px;
+    cursor: pointer !important;
+}
+
+.pulse {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0078d4;
+    box-shadow: 0 0 0 0 rgba(0, 120, 212, 0.5);
+    animation: pulse-c6zlskmd 1s infinite;
+}
+
+@keyframes pulse-c6zlskmd {
+    100% {
+        box-shadow: 0 0 0 20px #0000;
+    }
+}

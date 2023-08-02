@@ -1,0 +1,22 @@
+.container_main {
+  height: calc(100vh - 165px);
+  overflow: auto;
+}
+
+.grid_template {
+  display: grid;
+  gap: 40px;
+  grid-auto-rows: 25rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+  background: #222;
+  background-color: #fff;
+  padding: 80px 20px 0px 20px;
+}
+
+.grid_template a {
+  text-decoration: none;
+}
+
+.grid_template div {
+  color: #000;
+}

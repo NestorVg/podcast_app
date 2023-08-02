@@ -1,0 +1,55 @@
+.container_details {
+    display: flex;
+    gap: 100px;
+    height: calc(100vh - 135px);
+    margin-top: 50px;
+}
+
+.img_detail {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.img_detail img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.details_info {
+    width: 25%;
+}
+
+.details_table {
+    flex: 1;
+}
+
+.txt_count {
+    font-size: 22px;
+}
+
+.titulo_episodio {
+    color: var(--azul-claro) !important;
+}
+
+.altura_tabla {
+    margin-top: 20px;
+}
+
+.detalle_autor {
+    margin: 20px 0px;
+}
+
+.detalle_autor h2 {
+    margin: 0;
+}
+
+/*
+.limitarTexto {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+*/
